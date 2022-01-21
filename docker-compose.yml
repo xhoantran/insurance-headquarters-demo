@@ -17,7 +17,7 @@ services:
     container_name: headquarters_dev_django
     build:
       context: .
-      dockerfile: ./docker/Dockerfile
+      dockerfile: ./docker/Dockerfile.backend
     ports:
       - 8000:8000
     env_file:
@@ -33,14 +33,10 @@ services:
   frontend:
     container_name: headquarters_dev_frontend
     build:
-      context: ./frontend
-      dockerfile: ./docker/Dockerfile
+      context: .
+      dockerfile: ./docker/Dockerfile.frontend
     ports:
       - 80:80
-    volumes:
-      - ./frontend:/frontend
-    depends_on:
-      - backend
 
 volumes:
   postgres_data_dev:
