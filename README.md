@@ -72,7 +72,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/xhoantran/insurance-headquarters-demo/blob/main/images/webScreenShot.png?raw=true)
+![Product Name Screen Shot][product-screenshot]](https://github.com/xhoantran/insurance-headquarters-demo/blob/main/images/webScreenShot.png?raw=true)
 
 ### Built With
 
