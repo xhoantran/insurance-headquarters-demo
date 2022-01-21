@@ -1,0 +1,56 @@
+.slick-list {
+  margin: 0 -15px;
+}
+
+.slick-slide > div {
+  padding: 0 15px;
+}
+
+.slick-dots li {
+  width: 10px;
+  height: 10px;
+  margin: 0 15px;
+
+  button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 0px;
+    height: 0px;
+    // padding      : 5px;
+    background: transparent;
+    border-radius: 30px;
+
+    &:hover,
+    &:focus {
+      outline: none;
+    }
+
+    &:hover:before,
+    &:focus:before {
+      opacity: 1;
+    }
+
+    &:before {
+      width: 10px;
+      height: 10px;
+      content: "";
+      opacity: 1;
+      background: $primary;
+      border-radius: 30px;
+      margin: 4px;
+    }
+  }
+
+  &.slick-active {
+    li {
+      width: 30px;
+      margin: 0 15px;
+    }
+  }
+
+  &.slick-active button:before {
+    width: 30px;
+    opacity: 1;
+  }
+}

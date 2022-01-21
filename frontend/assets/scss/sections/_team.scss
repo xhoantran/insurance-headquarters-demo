@@ -1,0 +1,91 @@
+.team-slider-cs {
+  margin-top: 30px;
+
+  @include tablet {
+    margin-top: 45px;
+  }
+
+  @include desktops {
+    margin-top: 65px;
+  }
+}
+
+/*================================================
+Team Area CSS
+=================================================*/
+.about-team-card {
+  margin-bottom: 30px;
+  transition: $transition;
+  text-align: center;
+
+  .about-team-card__image {
+    position: relative;
+    overflow: hidden;
+
+    img {
+      transition: $transition;
+    }
+    .social {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      text-decoration: none;
+      opacity: 0;
+      margin-top: -100px;
+      padding: 10px 15px 5px;
+      background: $white;
+      border-radius: 35px;
+      visibility: hidden;
+      transition: $transition;
+
+      a {
+        display: inline-block;
+        color: $primary;
+        font-size: 18px;
+        margin: 0 6px;
+
+        &:hover {
+          color: $primary-light;
+        }
+      }
+    }
+  }
+  .about-team-card__content {
+    padding: 25px;
+    position: relative;
+    transition: $transition;
+
+    h6 {
+      margin-bottom: 10px;
+      transition: $transition;
+      font {
+        size: 1rem;
+      }
+    }
+    span {
+      display: block;
+      margin-top: 8px;
+      color: $primary;
+      transition: $transition;
+      font {
+        size: 0.875rem;
+      }
+    }
+  }
+  &:hover {
+    transform: translateY(-5px);
+
+    .about-team-card__image {
+      img {
+        transform: scale(1.05);
+      }
+      .social {
+        opacity: 1;
+        margin-top: 0;
+        visibility: visible;
+      }
+    }
+  }
+}

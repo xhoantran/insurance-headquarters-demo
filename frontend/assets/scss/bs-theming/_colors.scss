@@ -1,0 +1,135 @@
+$white: #fff;
+$black: #000;
+$green: green;
+$secondary: #2bd67b;
+$primary: #416ff4;
+$primary-light: #d8e2fd;
+$bunting: #0e1833;
+$bunting_2: #162647;
+$bunting-aprx: #101c3d;
+$porcelain: #eaeced;
+$haiti: #0d152e;
+$waterloo: #81838c;
+$aluminium: #a8abb3;
+$orange: #ef8e1f;
+$jaffa: #f48941;
+$rajah: #f7b26d;
+$mercury: #e5e5e5;
+$shamrock: #29ce76;
+$portica: #f7e36d;
+$biscay: #1d2e5e;
+$catalinablue: #082b91;
+$wildasand: #f5f5f5;
+$rhino: #283350;
+$alabaster: #fbfbfb;
+$goldendream: #eed22d;
+$electricviolet: #9726ec;
+$catskillwhite: #f7f9fb;
+$yellow-orange: #fbb040;
+$santas-gray: #9ea1ab;
+$lynch: #687497;
+$big-stone: #182748;
+
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "primary": $primary,
+    "secondary": $secondary,
+  ),
+  $theme-colors
+);
+
+$colors: (
+  "white": $white,
+  "black": $black,
+  "green": $green,
+  "secondary": $secondary,
+  "primary": $primary,
+  "bunting": $bunting,
+  "bunting-aprx": $bunting-aprx,
+  "porcelain": $porcelain,
+  "bunting_2": $bunting_2,
+  "rhino": $rhino,
+  "jaffa": $jaffa,
+  "haiti": $haiti,
+  "orange": $orange,
+  "shamrock": $shamrock,
+  "biscay": $biscay,
+  "aluminium": $aluminium,
+  "rajah": $rajah,
+  "mercury": $mercury,
+  "alabaster": $alabaster,
+  "waterloo": $waterloo,
+  "portica": $portica,
+  "goldendream": $goldendream,
+  "electricviolet": $electricviolet,
+  "wildasand": $wildasand,
+  "yellow-orange": $yellow-orange,
+  "santas-gray": $santas-gray,
+  "lynch": $lynch,
+  "big-stone": $big-stone,
+);
+
+// Create your own map
+$custom-colors: (
+  "custom-color": #900,
+);
+
+// Merge the maps
+$theme-colors: (map-merge($theme-colors, $custom-colors));
+
+// For button color
+
+$btn-colors: (
+  "black": $black,
+  "secondary": $secondary,
+);
+
+$backgroundColors: (
+  "white": $white,
+  "green": $green,
+  "primary": $primary,
+  "bunting": $bunting,
+  "bunting-aprx": $bunting-aprx,
+  "porcelain": $porcelain,
+  "haiti": $haiti,
+  "waterloo": $waterloo,
+  "alabaster": $alabaster,
+  "aluminium": $aluminium,
+  "shamrock": $shamrock,
+  "portica": $portica,
+  "wildasand": $wildasand,
+  "catalinablue": $catalinablue,
+  "catskillwhite": $catskillwhite,
+  "yellow-orange": $yellow-orange,
+  "santas-gray": $santas-gray,
+  "lynch": $lynch,
+  "big-stone": $big-stone,
+);
+
+$TextColors: (
+  "white": $white,
+  "primary": $primary,
+  "porcelain": $porcelain,
+  "haiti": $haiti,
+  "bunting-aprx": $bunting-aprx,
+  "waterloo": $waterloo,
+  "aluminium": $aluminium,
+  "shamrock": $shamrock,
+  "orange": $orange,
+  "biscay": $biscay,
+  "wildasand": $wildasand,
+  "jaffa": $jaffa,
+  "alabaster": $alabaster,
+  "portica": $portica,
+  "rajah": $rajah,
+  "yellow-orange": $yellow-orange,
+  "santas-gray": $santas-gray,
+  "lynch": $lynch,
+  "big-stone": $big-stone,
+);
+
+// For button color
+$border-colors: (
+  "black": $black,
+);

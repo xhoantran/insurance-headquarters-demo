@@ -1,0 +1,10 @@
+export const S1GetStartedURL = "/seePlans";
+export const S2LocationURL = "/seePlans/location";
+export const S3PreviousPlanURL = "/seePlans/previousPlan";
+export const S3HouseholdURL = "/seePlans/household";
+export const S3MarriageURL = "/seePlans/married";
+export const S3DependentsURL = "/seePlans/dependents";
+export const S3HosueholdMemberURL = "/seePlans/member/";
+export const S3TotalMemberURL = "/seePlans/totalMember";
+export const S3IncomeURL = "/seePlans/income";
+export const S4ShowPlansURL = "/seePlans/showPlans";
