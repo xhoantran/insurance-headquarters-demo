@@ -72,7 +72,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://www.insuranceheadquarters.com/images/webScreenShot.png)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/xhoantran/insurance-headquarters-demo/images/webScreenShot.png)
 
 ### Built With
 
@@ -217,7 +217,7 @@ Project Link: [https://github.com/xhoantran/insurance-headquarters-demo](https:/
 [issues-shield]: https://img.shields.io/github/issues/xhoantran/insurance-headquarters-demo.svg?style=for-the-badge
 [issues-url]: https://github.com/xhoantran/insurance-headquarters-demo/issues
 [license-shield]: https://img.shields.io/github/license/xhoantran/insurance-headquarters-demo.svg?style=for-the-badge
-[license-url]: https://github.com/xhoantran/insurance-headquarters-demo/blob/master/LICENSE.txt
+[license-url]: https://github.com/xhoantran/insurance-headquarters-demo/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/hoan-tran-954bb2217
 [product-screenshot]: images/screenshot.png
